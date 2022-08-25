@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
     <link rel="stylesheet" href="reset.css">
 
     <link rel="stylesheet" href="style.css">
@@ -22,546 +22,563 @@
 </head>
 
 <body>
-    <div id="wrap">
+
         <header id="header" class="fixed">
-            <div class="dark">
-            <div class="container">
-                <section id="header-1">
-                    <div class="flex-row">
-                        <div class="logo">
-                            <img src="images/Logo-M-3.png" alt="">
+            <section id="header-top" class="dark">
+                <div class="container">
+                    <div class="flex-row-space-between height-50px pd-10px">
+                        <div class="flex-row">
+                            <div class="logo">
+                                <img src="images/Logo-M-3.png" alt="">
+                            </div>
+                            <div class="select">
+                                <select class="dark bdrs-5px mgl-10px color-default height-30px" name="select-header"
+                                    id="select-header">
+                                    <option value="1">SAAS Users</option>
+                                    <option value="2">SAAS Users</option>
+                                    <option value="3">SAAS Users</option>
+                                    <option value="4">SAAS Users</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="select">
-                            <select class="dark bdrs-5px mgl-10px color-default height-30px" name="select-header"
-                                id="select-header">
-                                <option value="1">SAAS Users</option>
-                                <option value="2">SAAS Users</option>
-                                <option value="3">SAAS Users</option>
-                                <option value="4">SAAS Users</option>
-                            </select>
+
+                        <div class="flex-row ">
+                            <a class="btn-icon-dark" href=""><i class=" fa fa-bar-chart"></i></a>
+                            <a class="btn-icon-dark" href=""><i class="fa fa-user"></i></a>
+                            <a class="btn-icon-dark" class="ring" href="">3</a>
                         </div>
                     </div>
-
-                    <div class="flex-row ">
-                        <a class="btn-icon-dark" href=""><i class=" fa fa-bar-chart"></i></a>
-
-
-                        <a class="btn-icon-dark" href=""><i class="fa fa-user"></i></a>
-                        <a class="btn-icon-dark" class="ring" href="">3</a>
-
-                    </div>
-
-
-                </section>
-            </div>
-        </div>
-        <div class="dark-2">
-            <div class="container dark-2">
-                <section id="header-2" class="flex-row-space-between scroll-x">
-                    
-                        <ul id="menu-row" class="flex-row btn-list left">
+                </div>
+            </section>
+            <section id="header-bottom" class="dark-2">
+                <div class="container dark-2">
+                    <div class="flex-row-space-between scroll-x height-50px ln-50px">
+                        <ul id="menu-row" class="flex-row btn-list-dark ln-">
                             <li class="active"><a href="#">Dashboard</a></li>
-                            <li><a href="#">UI Features</a></li>
-                            <li><a href="#">Form Controls</a></li>
-                            <li><a href="#">Custom pages</a></li>
-                            <li><a href="#">Applications</a></li>
-                            <li><a href="#">Documentaion</a></li>
+                            <li><a href="#">Components</a></li>
+                            <li><a href="#">Crud</a></li>
+                            <li><a href="#">Apps</a></li>
+                            <li><a href="#">Pages</a></li>
                         </ul>
                         <div class="flex-row height-30px mg-tb-10px">
                             <i class="icon-search fa fa-search"></i>
-                            <input type="text" class="input-search">
-                        
+                            <input type="text" class="dark bd-1-dark-2 input-search">
+                        </div>
                     </div>
-                    
-
-
-                </section>
-            </div>
-        </div>
+                </div>
+            </section>
         </header>
-        <main id="main" style="margin-top: 100px">
+        <main id="main" class="top-100px">
+            <!-- header main -->
+            <section id="header-main">
+                <div class="container">
+                    <section class="flex-row-space-between scroll-x">
+                        <ul id="menu-row" class="flex-row  left">
+                            <li class="bold color-default active"><a href="#">Dashboard</a></li>
+                            <li><a href="#">#XRS-45670</a></li>
+                        </ul>
+                        <div class="flex-row ">
+                            <a class="btn-icon color-primary" href="#"><i class="fas fa-file-check"></i></a>
+                            <a class="btn-icon color-sucsess" href="#"><i class="fa-duotone fa-file-plus"></i></a>
+                            <a class="btn-icon color-warning" href="#"><i class="fa fa-file-text-o  "></i></a>
+                            <div class="select">
+                                <select class="bd-none bdrs-5px mgl-10px color-default height-30px" name="select-header"
+                                    id="select-header">
+                                    <option value="1">Today Nov 22</option>
+                                    <option value="2">SAAS Users</option>
+                                    <option value="3">SAAS Users</option>
+                                    <option value="4">SAAS Users</option>
+                                </select>
+                            </div>
+                            <a class="btn-icon-primary" href="#"><i class="fa fa-cog  "></i></a>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <!-- end header main -->
+            <!--  section-1 -->
             <section id="section-1">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-lg-8">
-                            <div class="create-store">
-                                <div class="text">
-                                    <div class="title">We are working
+                    <div class="box">
+                        <div class="box-4">
+                            <div class="bg-white  bdrs-12px height-500px">
+                                <div class="flex-column rel ">
+                                    <div class="abs flex-column lh-20px pd-15px z-index-1">
+                                        <div class="title bold">
+                                            Weekly Sales Stats
+                                        </div>
+                                        <div class="content">
+                                            890,344 Sales
+                                        </div>
                                     </div>
-                                    <div class="title bold">to boost lovely mood</div>
-                                    <div class="content">Long before you sit down to put the pen
-                                        need to make sure you breathe</div>
-                                    <div class="btn btn-primary color-white">
-                                        <a href="#">Create a Store</a>
+                                    <img class=" abs width-100 top-110px height-100px" src="images/Vector-26.png"
+                                        alt="">
+                                    <img class=" abs width-100 top-109px height-100px" src="images/Vector-25.png"
+                                        alt="">
+                                    <div class="flex-column abs top-250px width-100 pd-15px lh-60px">
 
+                                        <div class="flex-row mg-tb-5px">
+                                            <div class="icon-img-hover width-20">
+                                                <img src="images/Vector.png" alt="">
+                                            </div>
+                                            <div class="width-60 pd-5px lh-15px">
+                                                <div class="title bold">
+                                                    Top Authors
+                                                </div>
+                                                <div class="content">
+                                                    Most Successful Fellas
+                                                </div>
+                                            </div>
+                                            <div class="width-20 right bold">
+                                                +82$
+                                            </div>
+                                        </div>
+                                        <div class="flex-row mg-tb-5px">
+                                            <div class="icon-img-hover width-20">
+                                                <img src="images/Vector-2.png" alt="">
+                                            </div>
+                                            <div class="width-60 pd-5px lh-15px">
+                                                <div class="title bold">
+                                                    Top Authors
+                                                </div>
+                                                <div class="content">
+                                                    Most Successful Fellas
+                                                </div>
+                                            </div>
+                                            <div class="width-20 right bold">
+                                                +82$
+                                            </div>
+                                        </div>
+                                        <div class="flex-row mg-tb-5px">
+                                            <div class="icon-img-hover width-20">
+                                                <img src="images/Vector-3.png" alt="">
+                                            </div>
+                                            <div class="width-60 pd-5px lh-15px">
+                                                <div class="title bold">
+                                                    Top Authors
+                                                </div>
+                                                <div class="content">
+                                                    Most Successful Fellas
+                                                </div>
+                                            </div>
+                                            <div class="width-20 right bold">
+                                                +82$
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="img">
-                                    <img src="images/Basket.png" alt="">
-                                </div>
-
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-4">
-                            <div class="user-base">
-                                <div class="user-base-top">
+                        <div class="box-5">
+                            <div class="box-item">
+                                <div class="box-item-6">
+                                    <div class="bg-danger bdrs-12px height-130px rel over-hidden">
+                                        <div class="pd-15px lh-20px color-white">
+                                            <div class="content color-white">
+                                                Authir Stats
+                                            </div>
+                                            <div class="title bold">
+                                                3,620
+                                            </div>
+                                        </div>
+
+                                        <img class=" abs width-100 top-70px height-60px" src="images/Vector-8-2.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="box-item-6">
+                                    <div class="bg-white bdrs-12px height-130px over-hidden rel">
+                                        <div class="pd-15px lh-20px ">
+                                            <div class="content ">
+                                                Authir Stats
+                                            </div>
+                                            <div class="title bold">
+                                                4,9M
+                                            </div>
+                                        </div>
+                                        <div class="center mgt-30px color-denger">
+                                            <meter id="disk_d" class="width-80" value="0.75"></meter>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="box-item-6">
+
+                                    <div class="bg-default bdrs-12px height-130px rel over-hidden">
+                                        <div class="abs pd-15px lh-20px z-index-2">
+                                            <div class="title ">
+                                                Properties
+                                            </div>
+
+                                        </div>
+
+                                        <img class="abs width-100 height-100 top-0" src="images/19-6.png" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="box-item-6">
+                                    <div class="bg-primary bdrs-12px height-130px rel over-hidden">
+                                        <div class="pd-15px lh-20px color-white">
+                                            <div class="content color-white">
+                                                Commisions
+                                            </div>
+                                            <div class="title bold">
+                                                $2,005
+                                            </div>
+                                        </div>
+                                        <div class=" center abs width-150px mgl-30px height-50 top-55  ">
+                                            <img class="" src="images/Chart-11.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-item-12">
+                                    <div class="bg-success  bdrs-12px height-180px over-hidden">
+                                        <div class="flex-row">
+                                            <div class="pd-30px lh-20px color-white width-60">
+                                                <div class="title bold color-white lh-40px">
+                                                    30% Off Themes
+                                                </div>
+                                                <div class="content color-white">
+                                                    Outlines keep yours and Indulging
+                                                    the poorly driving keep structure
+                                                    honest great opportunaty
+                                                </div>
+                                            </div>
+                                            <img src="images/standing-16.png" alt="" class="width-40 top-10">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-3">
+                            <div class="bg-dark  bdrs-12px height-500px over-hidden rel">
+                                <div class="title abs z-index-1 color-white pd-30px">
                                     <div class="text">
-                                        <div class="title bold">User Base</div>
-
-                                        <div class="content">37% are Affiliates</div>
-
-
+                                        <div class="title bold lh-60px">Create CRM Reports
+                                        </div>
+                                        <div class="content lh-20px">Outlines keep you and honest Indulging in the
+                                            poorly driving
+                                            keep structure you honest
+                                            great opportunaty
+                                        </div>
+                                        <div class="btn btn-danger color-white mgt-30px">
+                                            <a href="#">Create a Store</a>
+                                        </div>
                                     </div>
-                                    <div class="dots">...</div>
                                 </div>
-                                <div class="user-base-chart">
-                                    <img src="images/Chart-bar.png" alt="">
-                                </div>
-                                <div class=" chart content">Long before you sit down to put the make sure you breathe
-                                </div>
-                                <div class="btn btn-primary color-white">
-                                    <a href="#">Create a Store</a>
-
-                                </div>
-                                <div class="item-bottom">
-                                    <div class="amount">Amount X</div>
-                                    <div class="amount">Amount Y</div>
-
-                                </div>
-
+                                <img class="abs width-100   height-400px top-100px" src="images/img.png.png" alt="">
                             </div>
-
                         </div>
-
                     </div>
-
-
                 </div>
             </section>
-            <section id="section-2">
+            <!-- end section-1 -->
+            <!-- section-1 -->
+            <section id="section-2" class="default">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="item-tops">
-                                        <div class="item">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
-                                        </div>
-                                        <div class="item active">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
-                                        </div>
+                    <div class="box">
+                        <div class="box-4">
+                            <div class="bg-white bdrs-12px height-200px over-hidden rel">
+                                <div class="title abs z-index-1 color-white pd-30px">
+                                    <div class="color-default bold lh-40px">Meeting Schedule
+                                    </div>
+                                    <div class="color-primary lh-40px">3:30PM - 4:20PM
+                                    </div>
+                                    <div class=" bold lh-20px color-dark">Craft a headline that is informative and will
+                                        capture readers
                                     </div>
                                 </div>
-                                <div class="col-md-12">
-
-
-                                    <div class="author">
-                                        <div class="header">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="title bold">Authors Earnings</div>
-                                                    <div class="content">More than 400+ new members</div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="time">
-                                                        <div class="month">Month</div>
-                                                        <div class="week">Week</div>
-                                                        <div class="day active">Day</div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        <div class="items scroll-x">
-                                            <div class="body-item ">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status violet">Approved</span>
-                                                </div>
-
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-                                                </div>
-
-
-                                            </div>
-                                            <div class="body-item">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status warning">In Progress</span>
-                                                </div>
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="body-item">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status success">Success</span>
-                                                </div>
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="body-item">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status danger">Rejected</span>
-                                                </div>
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="body-item">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status warning">In Progress</span>
-                                                </div>
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
+                                <img class="abs width-150px   height-150px top-0 right-0" src="images/Vector1-1.png"
+                                    alt="">
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="recent default pd-10px">
-                                        <div class="flex-row-space-between-center pd-10px">
-                                            <div class="text">
-                                                <div class="title bold">User Base</div>
-
-                                                <div class="content">37% are Affiliates</div>
-
-
-                                            </div>
-                                            <div class="dots">...</div>
+                        <div class="box-4">
+                            <div class="bg-white bdrs-12px height-200px">
+                                <div class="bg-white bdrs-12px height-200px over-hidden rel">
+                                    <div class="title abs z-index-1 color-white pd-30px">
+                                        <div class="color-default bold lh-40px">Announcement
                                         </div>
-                                        <div class="flex-column pd-10px">
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold  width-20 center ">08:42</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-violet"></div>
-                                                    <div class="item-2"></div>
-                                                </div>
-                                                <div class="title color-content break-line-3 width-75">Outlines keep you
-                                                    honest. Indulging in poorly driving and keep structure</div>
-                                            </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">10:00</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-success"></div>
-                                                    <div class="item-2"></div>
-                                                </div>
-                                                <div class="title bold break-line-3 width-75">AEOL meeting with</div>
-                                            </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">14:37</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-danger"></div>
-                                                    <div class="item-2"></div>
-                                                </div>
-                                                <div class="title bold break-line-3 width-75">Make deposit USD 700 to
-                                                    ESL</div>
-                                            </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">16:50</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-primary"></div>
-                                                    <div class="item-2"></div>
-                                                </div>
-                                                <div class=" title  color-content break-line-3 width-75">Outlines keep
-                                                    you honest. Indulging in poorly driving and keep structure keep you
-                                                    honest great</div>
-                                            </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">21:03</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-danger"></div>
-                                                    <div class="item-2"></div>
-                                                </div>
-                                                <div class="title  bold break-line-3 width-75">New order placed #XF-2356
-                                                </div>
-                                            </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">23:07</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-violet"></div>
-                                                </div>
-                                                <div class="title  color-content break-line-3 width-75">Outlines keep
-                                                    you honest. Indulging in poorly driving and keep structure</div>
-                                            </div>
-
+                                        <div class="color-primary lh-40px">03 May 2020
                                         </div>
-
-
+    
+                                        <div class=" bold lh-20px color-dark">Great blog posts don’t just happen Even the best bloggers need it
+                                        </div>
                                     </div>
-
+                                    <img class="abs width-150px   height-150px top-0 right-0" src="images/Vector1-1.png"
+                                        alt="">
                                 </div>
-                                <!-- Recent Activities -->
-                                <div class="col-md-12">
-                                    <div class="recent default pd-10px">
+                            </div>
 
-                                        <div class="flex-row-space-between-center pd-10px">
-                                            <div class="text">
-                                                <div class="title bold">Recent Activities
-                                                </div>
-                                                <div class="content">890,344 Sales</div>
-                                            </div>
-                                            <div class="dots">...</div>
+
+
+                        </div>
+                        <div class="box-4">
+                            <div class="bg-white bdrs-12px height-200px">
+                                <div class="bg-white bdrs-12px height-200px over-hidden rel">
+                                    <div class="title abs z-index-1 color-white pd-30px">
+                                        <div class="color-default bold lh-40px">Announcement
                                         </div>
-
-                                        <div class="flex-column pd-10px">
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector.png" alt="">
-                                                </div>
-
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
-                                                    </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
-                                                    </div>
-                                                </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
-                                                </div>
-                                            </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector-2.png" alt="">
-                                                </div>
-
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
-                                                    </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
-                                                    </div>
-                                                </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
-                                                </div>
-                                            </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector-3.png" alt="">
-                                                </div>
-
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
-                                                    </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
-                                                    </div>
-                                                </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
-                                                </div>
-                                            </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector-4.png" alt="">
-                                                </div>
-
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
-                                                    </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
-                                                    </div>
-                                                </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
-                                                </div>
-                                            </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector-5.png" alt="">
-                                                </div>
-
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
-                                                    </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
-                                                    </div>
-                                                </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
-                                                </div>
-                                            </div>
-
+                                        <div class="color-primary lh-40px">03 May 2020
                                         </div>
+    
+                                        <div class=" bold lh-20px color-dark">Great blog posts don’t just happen Even the best bloggers need it
+                                        </div>
+                                    </div>
+                                    <img class="abs width-150px   height-150px top-0 right-0" src="images/Vector1-1.png"
+                                        alt="">
+                                </div>
+                            </div>
 
 
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end section-2 -->
+            <!-- section-2 -->
+            <section id="section-3" class="bg-default">
+                <div class="container">
+                    <div class="box">
+                        <div class="box-12">
+                            <div class="flex-colomn whidth-100 bg-white pd-15px bdrs-12px height-500px">
+                                <div class="new-arrivals">
+                                    <div class="flex-row-space-between">
+                                        <div class="new-arrivals-header-left">
+                                            <div class="new-arrivals-header-left-title">New Arrivals</div>
+                                            <div class="new-arrivals-header-left-content">More than 400+ new members
+                                            </div>
+                                        </div>
+                                        <div class="new-arrivals-header-right">
+                                            <div class="new-report btn btn-primary btn-sm">New Report
+                                            </div>
+                                            <div class="create btn btn-danger btn-sm">Create
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-default scroll-x mg-tb-20px">
+                                        <table class="width-100">
+                                            <thead>
+                                                <tr class="bg-default ">
+                                                    <th class="width-40 pd-10px">PRODUCTS</th>
+                                                    <th class="width-15 pd-10px">EARNINGS</th>
+                                                    <th class="width-15 pd-10px">COMPANY</th>
+                                                    <th class="width-30 pd-10px">RATING</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="flex-row">
+                                                            <div class=""><img src="images/boy.png" alt="">
+                                                            </div>
+                                                            <div class="flex-column">
+                                                                <div class="title">Brad Simmons</div>
+                                                                <div class="content">HTML, JS, ReactJS</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">$8,000,000</div>
+                                                            <div class="content">In Proccess</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">Intertico</div>
+                                                            <div class="content">Web, UI/UX Design</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-row-space-between-center">
+                                                            <div class="flex-column">
+                                                                <div class="title color-warning">★★★★★</div>
+                                                                <div class="content">Best Rated</div>
+                                                            </div>
+                                                            <div class="icon success ">View Offer</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="flex-row">
+                                                            <div class="author-avatar"><img src="images/boy.png" alt="">
+                                                            </div>
+                                                            <div class="flex-column">
+                                                                <div class="title">Brad Simmons</div>
+                                                                <div class="content">HTML, JS, ReactJS</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">$8,000,000</div>
+                                                            <div class="content">In Proccess</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">Intertico</div>
+                                                            <div class="content">Web, UI/UX Design</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-row-space-between-center">
+                                                            <div class="flex-column">
+                                                                <div class="title color-warning">★★★★★</div>
+                                                                <div class="content">Best Rated</div>
+                                                            </div>
+                                                            <div class="icon success ">View Offer</div>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="flex-row">
+                                                            <div class="author-avatar"><img src="images/boy.png" alt="">
+                                                            </div>
+                                                            <div class="flex-column">
+                                                                <div class="title">Brad Simmons</div>
+                                                                <div class="content">HTML, JS, ReactJS</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">$8,000,000</div>
+                                                            <div class="content">In Proccess</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">Intertico</div>
+                                                            <div class="content">Web, UI/UX Design</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-row-space-between-center">
+                                                            <div class="flex-column">
+                                                                <div class="title color-warning">★★★★★</div>
+                                                                <div class="content">Best Rated</div>
+                                                            </div>
+                                                            <div class="icon success ">View Offer</div>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="flex-row">
+                                                            <div class="author-avatar"><img src="images/boy.png" alt="">
+                                                            </div>
+                                                            <div class="flex-column">
+                                                                <div class="title">Brad Simmons</div>
+                                                                <div class="content">HTML, JS, ReactJS</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">$8,000,000</div>
+                                                            <div class="content">In Proccess</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">Intertico</div>
+                                                            <div class="content">Web, UI/UX Design</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-row-space-between-center">
+                                                            <div class="flex-column">
+                                                                <div class="title color-warning">★★★★★</div>
+                                                                <div class="content">Best Rated</div>
+                                                            </div>
+                                                            <div class="icon success ">View Offer</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="flex-row">
+                                                            <div class="author-avatar"><img src="images/boy.png" alt="">
+                                                            </div>
+                                                            <div class="flex-column">
+                                                                <div class="title">Brad Simmons</div>
+                                                                <div class="content">HTML, JS, ReactJS</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">$8,000,000</div>
+                                                            <div class="content">In Proccess</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">Intertico</div>
+                                                            <div class="content">Web, UI/UX Design</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-row-space-between-center">
+                                                            <div class="flex-column">
+                                                                <div class="title color-warning">★★★★★</div>
+                                                                <div class="content">Best Rated</div>
+                                                            </div>
+                                                            <div class="icon success ">View Offer</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="flex-row">
+                                                            <div class="author-avatar"><img src="images/boy.png" alt="">
+                                                            </div>
+                                                            <div class="flex-column">
+                                                                <div class="title">Brad Simmons</div>
+                                                                <div class="content">HTML, JS, ReactJS</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">$8,000,000</div>
+                                                            <div class="content">In Proccess</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-column">
+                                                            <div class="title">Intertico</div>
+                                                            <div class="content">Web, UI/UX Design</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="flex-row-space-between-center">
+                                                            <div class="flex-column">
+                                                                <div class="title color-warning">★★★★★</div>
+                                                                <div class="content">Best Rated</div>
+                                                            </div>
+                                                            <div class="icon success ">View Offer</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
-                                <!-- End Recent Activities -->
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
+            <!-- end section-3 -->
         </main>
-
-    </div>
     <footer>
         <section>
 
