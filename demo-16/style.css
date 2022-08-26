@@ -482,13 +482,8 @@ margin-bottom: 10px;
 }
 
 
-
-.color-white, .color-white a{
-    color: #ffffff;
-}
-
-.color-dark, .color-dark a{
-    color: #333;
+.group-item{
+    gap: 5px;
 }
 
 footer{
