@@ -12,7 +12,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="mms-style.css">
+
 
 
     <script src="style.js"></script>
@@ -20,639 +22,700 @@
 
 <body>
     <div id="wrap">
-        <div id="main">
+        <main id="main" class="">
 
-            <div id="menu-icon">
-                <ul>
-                    <li><a href=""><img src="images/logo.png" alt="">
-
+            <section id="menu-icon" class="flex-column">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <ul class="icon-img">
+                    <li><a href="#">
+                            <img src="images/Icon-1.png" alt="">
                         </a></li>
-                    <span></span>
-                    <li><a href="#"><i class="fa fa-th-large"></i></a></li>
-                    <li><a href="#"><i class="fa fa-user"></i></a></li>
-                    <li class="active"><a href="#"><i class=" fa fa-bar-chart"></i></a></li>
-                    <li><a href="#"><i class="fa fa-shield"></i></a></li>
-                    <li><a href="#"><i class="fa fa-magic "></i></a></li>
-                    <li><a href="#"><i class="fa fa-file-code-o"></i></a></li>
+                    <li><a href="#">
+                            <img src="images/Icon-2.png" alt="">
+                        </a></li>
+                    <li class="active"><a href="#">
+                            <img src="images/Equalizer.png" alt="">
+                        </a></li>
+                    <li><a href="#">
+                            <img src="images/Icon-4.png" alt="">
+                        </a></li>
+                    <li><a href="#">
+                            <img src="images/Icon-5.png" alt="">
+                        </a></li>
+                    <li><a href="#">
+                            <img src="images/Icon-6.png" alt="">
+                        </a></li>
                 </ul>
-            </div>
+            </section>
 
-            <div id="menu-left">
-                <div class="search">
-                    <i class="fa fa-search"></i>
-                    <div class="input-search">
-                        <input type="text">
+            <section id="menu-left" class="flex-column">
+                <div class="form-search flex-row-space-between">
+                    <div class="flex-row-space-between rel">
+                        <i class="icon-search fa fa-search abs"></i>
+                        <input type="text" class="input-search" placeholder="Search">
                     </div>
+                    <a class="icon default" href="#">
+                        <img src="images/User.png" alt="">
+                    </a>
+                </div>
 
-                    <div class="user-icon"><i class="fa fa-user"></i></div>
-                </div>
-                <div class="title-menu-left">
-                    <h2>Projects</h2>
-                </div>
-                <div class="item-menu-left">
-                    <div class="icon-menu-left">
+                <h1 class="pd-lr-20px">Projects</h1>
+
+
+                <div class="flex-row item-group">
+                    <div class="icon bg-default">
                         <img src="images/Vector.png" alt="">
                     </div>
-                    <div class="body-item-menu-left">
-                        <div class="title-item-menu-left">Briviba SaaS</div>
-                        <div class="content-menu-left">By James</div>
+                    <div class="mgl-15px">
+                        <h6 class="title">Top Authors</h6>
+                        <p class="content">
+                            Most Successful Fellas
+                        </p>
                     </div>
+
                 </div>
-                <div class="item-menu-left active">
-                    <div class="icon-menu-left ">
+                <div class="flex item-group">
+                    <div class="icon bg-default">
                         <img src="images/Vector-2.png" alt="">
                     </div>
-                    <div class="body-item-menu-left">
-                        <div class="title-item-menu-left">Vine Quick Reports</div>
-                        <div class="content-menu-left">By Andres</div>
+                    <div class="mgl-15px">
+                        <h6 class="title">Top Authors</h6>
+                        <p class="content">
+                            Most Successful Fellas
+                        </p>
                     </div>
-                </div>
 
-                <div class="item-menu-left">
-                    <div class="icon-menu-left">
+                </div>
+                <div class="flex-row item-group">
+                    <div class="icon bg-default">
                         <img src="images/Vector-3.png" alt="">
                     </div>
-                    <div class="body-item-menu-left">
-                        <div class="title-item-menu-left">KC Account CRM</div>
-                        <div class="content-menu-left">By Keenthemes</div>
+                    <div class="mgl-15px">
+                        <h6 class="title">Top Authors</h6>
+                        <p class="content">
+                            Most Successful Fellas
+                        </p>
                     </div>
                 </div>
-                <div class="item-menu-left">
-                    <div class="icon-menu-left">
-                        <img src="images/Vector-4.png" alt="">
+                <div class="flex-row item-group">
+                    <div class="icon bg-default">
+                        <img src="images/Vector.png" alt="">
                     </div>
-                    <div class="body-item-menu-left">
-                        <div class="title-item-menu-left">Most Cloudy UMC</div>
-                        <div class="content-menu-left">By Andrei</div>
-                    </div>
-                </div>
-                <div class="item-menu-left">
-                    <div class="icon-menu-left">
-                        <img src="images/Vector-5.png" alt="">
-                    </div>
-                    <div class="body-item-menu-left">
-                        <div class="title-item-menu-left">Disqus Forum</div>
-                        <div class="content-menu-left">By Disqus Inc.</div>
+                    <div class="mgl-15px">
+                        <h6 class="title">Top Authors</h6>
+                        <p class="content">
+                            Most Successful Fellas
+                        </p>
                     </div>
                 </div>
-                <div class="item-menu-left ">
-                    <div class="icon-menu-left">
-                        <img src="images/Vector-6.png" alt="">
+                <div class="flex-row item-group">
+                    <div class="icon bg-default">
+                        <img src="images/Vector-2.png" alt="">
                     </div>
-                    <div class="body-item-menu-left">
-                        <div class="title-item-menu-left">Proove Quick CRM</div>
-                        <div class="content-menu-left">By Proove Limited</div>
-                    </div>
-                </div>
-                <div class="item-menu-left ">
-                    <div class="icon-menu-left">
-                        <img src="images/Vector-7.png" alt="">
-                    </div>
-                    <div class="body-item-menu-left">
-                        <div class="title-item-menu-left">Most Cloudy UMC</div>
-                        <div class="content-menu-left">By Andrei</div>
+                    <div class="mgl-15px">
+                        <h6 class="title">Top Authors</h6>
+                        <p class="content">
+                            Most Successful Fellas
+                        </p>
                     </div>
                 </div>
-
-            </div>
-
-            <div id="main-body">
-                <div class="main-header"></div>
-                <div class="statis ">
-                    <div class="row">
-                        <div class="col-md-4 col-xs-4 col-lg-4">
-                            <div class="sales">
-                                <div class="sales-top">
-                                    <div class="header-sales-top">
-                                        <div class="title-sales-top">Sales Progress</div>
-                                        <div class="dots-sales-top">...</div>
-                                    </div>
-                                    <img src="images/Chart.png" alt="">
-                                </div>
-                                <div class="sales-bottom">
-                                    <div class="row">
-                                        <div class="col-md-6 col-xs-6 col-lg-6">
-                                            <div class="item-sales-bottom">
-
-                                                <div class="title-chart">Avarage Sale</div>
-                                                <div class="content-chart">$650</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-6 col-lg-6">
-                                            <div class="item-sales-bottom">
-                                                <div class="title-chart">Comission</div>
-                                                <div class="content-chart">$29,004</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-6 col-lg-6">
-                                            <div class="item-sales-bottom">
-                                                <div class="title-chart">Annual Taxes 2019</div>
-                                                <div class="content-chart">$233,600</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-6 col-lg-6">
-                                            <div class="item-sales-bottom">
-                                                <div class="title-chart">Annual Income</div>
-                                                <div class="content-chart">$1,480,00</div>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
+                <div class="flex-row item-group">
+                    <div class="icon bg-default">
+                        <img src="images/Vector-3.png" alt="">
+                    </div>
+                    <div class="mgl-15px">
+                        <h6 class="title">Top Authors</h6>
+                        <p class="content">
+                            Most Successful Fellas
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-row item-group">
+                    <div class="icon bg-default">
+                        <img src="images/Vector.png" alt="">
+                    </div>
+                    <div class="mgl-15px">
+                        <h6 class="title">Top Authors</h6>
+                        <p class="content">
+                            Most Successful Fellas
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-row item-group">
+                    <div class="icon bg-default">
+                        <img src="images/Vector-2.png" alt="">
+                    </div>
+                    <div class="mgl-15px">
+                        <h6 class="title">Top Authors</h6>
+                        <p class="content">
+                            Most Successful Fellas
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-row item-group">
+                    <div class="icon bg-default">
+                        <img src="images/Vector-3.png" alt="">
+                    </div>
+                    <div class="mgl-15px">
+                        <h6 class="title">Top Authors</h6>
+                        <p class="content">
+                            Most Successful Fellas
+                        </p>
+                    </div>
+                </div>
 
 
+            </section>
+
+            <section id="main-body">
+                <div class="main-header">
+                    <div class="flex-row-space-between">
+                        <h1 class="title">KC Account CRM</h1>
+                        <div class="group-buttun flex-row-space-between">
+                            <buttun class="btn btn-white flex-row-space-between-center">
+                                <img src="images/Add-user.png" alt="">
+                                <p>Add New Member</p> 
+                            </buttun>
+                            <buttun class="btn btn-white flex-row-space-between-center">
+                                <img src="images/File.png" alt="">
+                                <p>New Report</p> 
+                            </buttun>
+                            <div class="icon " style="background: url(images/Icon.png);">
                             </div>
                         </div>
-                        <div class="col-md-8">
-                            <div class="author">
-                                <div class="header-author">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="title-header-author">Authors Earnings</div>
-                                            <div class="content-header-author">More than 400+ new members</div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="time-author">
-                                                <div class="month">Month</div>
-                                                <div class="week">Week</div>
-                                                <div class="day active">Day</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="body-author">
-                                    <div class="info-author">
-                                        <div class="avatar-author">
-                                            <img src="images/Avatar.png" alt="">
-                                        </div>
-                                        <div class="main-author">
-                                            <div class="name-author">Brad Simmons</div>
-                                            <div class="content-author">Successful Fellas</div>
-                                        </div>
-                                    </div>
-                                    <div class="info-cash">
-                                        <div class="cash-author">
-                                            <div class="paid">Paid</div>
-                                            <div class="total-cash">$2,000,000</div>
-                                        </div>
-                                    </div>
-                                    <div class="cash-percent">+28%</div>
-                                    <div class="detail-author">
-                                        <div class="button">
-                                            <img src="images/next-right.png" alt="">
-                                        </div>
 
-                                    </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-4-4">
+                        <div class="sales-progress flex-column-space-between bg-success rel">
 
-                                </div>
-                                <div class="body-author">
-                                    <div class="info-author">
-                                        <div class="avatar-author">
-                                            <img src="images/Avatar.png" alt="">
-                                        </div>
-                                        <div class="main-author">
-                                            <div class="name-author">Brad Simmons</div>
-                                            <div class="content-author">Successful Fellas</div>
-                                        </div>
-                                    </div>
-                                    <div class="info-cash">
-                                        <div class="cash-author">
-                                            <div class="paid">Paid</div>
-                                            <div class="total-cash">$2,000,000</div>
-                                        </div>
-                                    </div>
-                                    <div class="cash-percent">+28%</div>
-                                    <div class="detail-author">
-                                        <div class="button">
-                                            <img src="images/next-right.png" alt="">
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="body-author">
-                                    <div class="info-author">
-                                        <div class="avatar-author">
-                                            <img src="images/Avatar.png" alt="">
-                                        </div>
-                                        <div class="main-author">
-                                            <div class="name-author">Brad Simmons</div>
-                                            <div class="content-author">Successful Fellas</div>
-                                        </div>
-                                    </div>
-                                    <div class="info-cash">
-                                        <div class="cash-author">
-                                            <div class="paid">Paid</div>
-                                            <div class="total-cash">$2,000,000</div>
-                                        </div>
-                                    </div>
-                                    <div class="cash-percent">+28%</div>
-                                    <div class="detail-author">
-                                        <div class="button">
-                                            <img src="images/next-right.png" alt="">
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="body-author">
-                                    <div class="info-author">
-                                        <div class="avatar-author">
-                                            <img src="images/Avatar.png" alt="">
-                                        </div>
-                                        <div class="main-author">
-                                            <div class="name-author">Brad Simmons</div>
-                                            <div class="content-author">Successful Fellas</div>
-                                        </div>
-                                    </div>
-                                    <div class="info-cash">
-                                        <div class="cash-author">
-                                            <div class="paid">Paid</div>
-                                            <div class="total-cash">$2,000,000</div>
-                                        </div>
-                                    </div>
-                                    <div class="cash-percent">+28%</div>
-                                    <div class="detail-author">
-                                        <div class="button">
-                                            <img src="images/next-right.png" alt="">
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="body-author">
-                                    <div class="info-author">
-                                        <div class="avatar-author">
-                                            <img src="images/Avatar.png" alt="">
-                                        </div>
-                                        <div class="main-author">
-                                            <div class="name-author">Brad Simmons</div>
-                                            <div class="content-author">Successful Fellas</div>
-                                        </div>
-                                    </div>
-                                    <div class="info-cash">
-                                        <div class="cash-author">
-                                            <div class="paid">Paid</div>
-                                            <div class="total-cash">$2,000,000</div>
-                                        </div>
-                                    </div>
-                                    <div class="cash-percent">+28%</div>
-                                    <div class="detail-author">
-                                        <div class="button">
-                                            <img src="images/next-right.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-
+                            <div class="sales-progress-top flex-row-space-between-center">
+                                <h3 class="color-white">Sales Progress</h3>
+                                <p class="dots">
+                                    <span class="dot-1"></span>
+                                    <span class="dot-2"></span>
+                                </p>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-xs-4 col-lg-4">
-                            <div class="row">
-                                <div class=" col-md-12">
-                                    <div class="turnover">
-                                        <div class="turnover-top">
-                                            <div class="buttun-turnover">
-                                                <img src="images/Layout-4-blocks.png" alt="">
-                                            </div>
-                                            <div class="info-turnover">
-                                                <div class="cash-turnover">750$</div>
-                                                <div class="content-turnover">Weekly Income</div>
-                                            </div>
-                                        </div>
-                                        <div class="turnover-bottom">
-                                            <img src="images/Vector-9.png" alt="">
-                                        </div>
+                            <div class="sales-progress-img abs">
+                                <img src="images/Chart.png" alt="">
+                            </div>
+
+
+
+
+                            <div class="sales-progress-bottom bg-white">
+                                <div class="box-item">
+                                    <div class="box-item-6">
+                                        <p class="title-small">Avarage Sale</p>
+                                        <h1>$650</h1>
                                     </div>
-                                </div>
-                                <div class=" col-md-12">
-                                    <div class="amount-product">
-                                        <div class="product-top">
-                                            <div class="buttun-product">
-                                                <img src="images/Cart3.png" alt="">
-                                            </div>
-                                            <div class="info-product">
-                                                <div class="cash-product">+259</div>
-                                                <div class="content-product">Sales Change</div>
-                                            </div>
-                                        </div>
-                                        <div class="product-bottom">
-                                            <img src="images/Vector-8.png" alt="">
-                                        </div>
+                                    <div class="box-item-6">
+                                        <p class="title-small">Comission</p>
+                                        <h1>$29,004</h1>
+                                    </div>
+
+                                    <div class="box-item-6">
+                                        <p class="title-small">Annual Taxes 2019</p>
+                                        <h1>$233,600</h1>
+                                    </div>
+                                    <div class="box-item-6">
+                                        <p class="title-small">Annual Income</p>
+                                        <h1>$1,480,00</h1>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-8">
-                            <div class="market-leaders">
-                                <div class="market-header">
-                                    <div class="market-header-title">Market Leaders</div>
-                                    <div class="market-header-dots">. .</div>
-                                </div>
-                                <div class="market-item">
-                                    <div class="market-body">
-                                        <div class="market-img">
-                                            <img src="images/product17 1.png" alt="">
-                                        </div>
-                                        <div class="market-text">
-                                            <div class="market-title">Cup & Green</div>
-                                            <div class="market-conten-1">Study the highway types</div>
-                                            <div class="market-conten-2">Created by:
-                                                <a href="">CoreAd</a>
-                                            </div>
-                                        </div>
-                                        <div class="market-number">
-                                            <div class="market-number-total">24,900</div>
-                                            <div class="market-number-sales">Sales</div>
-                                        </div>
+                    </div>
+                    <div class="box-8-4">
+                        <div class="authors-earnings bg-white flex-column-space-between">
+                            <div class="flex-colomn bg-white ">
+                                <div class="flex-row-space-between-center">
+                                    <div class="group-text">
+                                        <h2 class="title">Authors Earnings</h2>
+                                        <p class="content">More than 400+ new members</p>
                                     </div>
-                                </div>
-                                <div class="market-item">
-                                    <div class="market-body">
-                                        <div class="market-img">
-                                            <img src="images/product17 1.png" alt="">
-                                        </div>
-                                        <div class="market-text">
-                                            <div class="market-title">Cup & Green</div>
-                                            <div class="market-conten-1">Study the highway types</div>
-                                            <div class="market-conten-2">Created by:
-                                                <a href="">CoreAd</a>
-                                            </div>
-                                        </div>
-                                        <div class="market-number">
-                                            <div class="market-number-total">24,900</div>
-                                            <div class="market-number-sales">Sales</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="market-item">
-                                    <div class="market-body">
-                                        <div class="market-img">
-                                            <img src="images/product17 1.png" alt="">
-                                        </div>
-                                        <div class="market-text">
-                                            <div class="market-title">Cup & Green</div>
-                                            <div class="market-conten-1">Study the highway types</div>
-                                            <div class="market-conten-2">Created by:
-                                                <a href="">CoreAd</a>
-                                            </div>
-                                        </div>
-                                        <div class="market-number">
-                                            <div class="market-number-total">24,900</div>
-                                            <div class="market-number-sales">Sales</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="market-item">
-                                    <div class="market-body">
-                                        <div class="market-img">
-                                            <img src="images/product17 1.png" alt="">
-                                        </div>
-                                        <div class="market-text">
-                                            <div class="market-title">Cup & Green</div>
-                                            <div class="market-conten-1">Study the highway types</div>
-                                            <div class="market-conten-2">Created by:
-                                                <a href="">CoreAd</a>
-                                            </div>
-                                        </div>
-                                        <div class="market-number">
-                                            <div class="market-number-total">24,900</div>
-                                            <div class="market-number-sales">Sales</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="market-item">
-                                    <div class="market-body">
-                                        <div class="market-img">
-                                            <img src="images/product17 1.png" alt="">
-                                        </div>
-                                        <div class="market-text">
-                                            <div class="market-title">Cup & Green</div>
-                                            <div class="market-conten-1">Study the highway types</div>
-                                            <div class="market-conten-2">Created by:
-                                                <a href="">CoreAd</a>
-                                            </div>
-                                        </div>
-                                        <div class="market-number">
-                                            <div class="market-number-total">24,900</div>
-                                            <div class="market-number-sales">Sales</div>
-                                        </div>
+
+                                    <div class=" time-author flex-row-space-between-center">
+                                        <div class="icon-text Month"><a>Month</a></div>
+                                        <div class="icon-text week">Week</div>
+                                        <div class="icon-text active day ">Day</div>
                                     </div>
                                 </div>
                             </div>
 
+                            <div class="table-default scroll-x">
+                                <table class="">
+                                    <thead class="hidden">
+                                        <tr>
+                                            <th class="width-40 ">PRODUCTS</th>
+                                            <th class="width-30 ">EARNINGS</th>
+                                            <th class="width-15 ">COMPANY</th>
+                                            <th class="width-15 ">RATING</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="flex-row mgl--10px">
+                                                    <div class="icon-img bg-default"><img class="bottom"
+                                                            src="images/boy.png" alt="">
+                                                    </div>
+                                                    <div class="flex-column-space-between mgl-15px">
+                                                        <h6 class="title">Brad Simmons</h6>
+                                                        <p class="content">Successful Fellas</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column-space-between group-text">
+                                                    <p class="content">Paid</p>
+                                                    <h6 class="title">$2,000,000</h6>
+
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="percent">
+                                                    <p class="content text-violet">+28%</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="icon-30 bg-default success-bland-hover right">
+                                                    <a href="#">
+                                                        <img src="images/Right-2.png" alt="">
+                                                    </a>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="flex-row mgl--10px">
+                                                    <div class="icon-img bg-default"><img class="bottom"
+                                                            src="images/girl-16.png" alt="">
+                                                    </div>
+                                                    <div class="flex-column-space-between mgl-15px">
+                                                        <h6 class="title">Jessie Clarcson</h6>
+                                                        <p class="content">Most Successful</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column-space-between group-text">
+                                                    <p class="content">Paid</p>
+                                                    <h6 class="title">$1,200,000</h6>
+
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="percent">
+                                                    <p class="content text-warning">+52%</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="icon-30 bg-default success-bland-hover right">
+                                                    <a href="#">
+                                                        <img src="images/Right-2.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="flex-row mgl--10px">
+                                                    <div class="icon-img bg-default"><img class="bottom"
+                                                            src="images/boy-22.png" alt="">
+                                                    </div>
+                                                    <div class="flex-column-space-between mgl-15px">
+                                                        <h6 class="title">Lebron Wayde</h6>
+                                                        <p class="content">Awesome Users</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column-space-between group-text">
+                                                    <p class="content">Paid</p>
+                                                    <h6 class="title">$2,000,000</h6>
+
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="percent">
+                                                    <p class="content text-danger">-34%</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="icon-30 bg-default success-bland-hover right">
+                                                    <a href="#">
+                                                        <img src="images/Right-2.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="flex-row mgl--10px">
+                                                    <div class="icon-img bg-default"><img class="bottom"
+                                                            src="images/girl-12.png" alt="">
+                                                    </div>
+                                                    <div class="flex-column-space-between mgl-15px">
+                                                        <h6 class="title">Natali Trump</h6>
+                                                        <p class="content">Best Customers</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column-space-between group-text">
+                                                    <p class="content">Paid</p>
+                                                    <h6 class="title">$2,000,000</h6>
+
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="percent">
+                                                    <p class="content text-success">+48%</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="icon-30 bg-default success-bland-hover right">
+                                                    <a href="#">
+                                                        <img src="images/Right-2.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                     
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
+
                     </div>
-                    <div class="new-arrivals">
-                        <div class="new-arrivals-header">
-                            <div class="new-arrivals-header-left">
-                                <div class="new-arrivals-header-left-title">New Arrivals</div>
-                                <div class="new-arrivals-header-left-content">More than 400+ new members</div>
-                            </div>
-                            <div class="new-arrivals-header-right">
-                                <div class="new-report btn btn-primary btn-sm">New Report
-                                </div>
-                                <div class="create btn btn-danger btn-sm">Create
-                                </div>
-                            </div>
-                        </div>
-                        <div class="new-arrivals-body">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th class="th-1">PRODUCTS</th>
-                                        <th class="th-2">EARNINGS</th>
-                                        <th class="th-3">COMPANY</th>
-                                        <th class="th-4">RATING</th>
+
+                    <div class="box-4-4">
+                        <div class="box-item">
+                            <div class=" box-item-12">
+                                <div class="weekly-income bg-white rel">
+                                    <div class="weekly-income-top flex-row-space-between ">
+                                        <div class="icon-img bg-danger-bland circle">
+                                            <img class="pointer" src="images/Layout-4-blocks.png" alt="">
+                                        </div>
+                                            
                                         
-                                    </tr>
-
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="author-new">
-                                                <div class="author-avatar"><img src="images/boy.png" alt=""></div>
-                                                <div class="item">
-                                                    <div class="title">Brad Simmons</div>
-                                                    <div class="content">HTML, JS, ReactJS</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="item">
-                                                    <div class="title">$8,000,000</div>
-                                                    <div class="content">In Proccess</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="item">
-                                                    <div class="title">Intertico</div>
-                                                    <div class="content">Web, UI/UX Design</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="rating">
-                                                    <div class="rating-left">
-                                                <div class="item">
-                                                    <div class="title icon">★★★★★</div>
-                                                    <div class="content">Best Rated</div>
-                                                </div>
-                                            </div>
-                                            <div class="rating-right">
-                                                <div class="item">
-                                                    <div class="button-view-offer">View Offer</div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="author-new">
-                                                <div class="author-avatar"><img src="images/boy.png" alt=""></div>
-                                                <div class="item">
-                                                    <div class="title">Brad Simmons</div>
-                                                    <div class="content">HTML, JS, ReactJS</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="item">
-                                                    <div class="title">$8,000,000</div>
-                                                    <div class="content">In Proccess</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="item">
-                                                    <div class="title">Intertico</div>
-                                                    <div class="content">Web, UI/UX Design</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="rating">
-                                                    <div class="rating-left">
-                                                <div class="item">
-                                                    <div class="title icon">★★★★★</div>
-                                                    <div class="content">Best Rated</div>
-                                                </div>
-                                            </div>
-                                            <div class="rating-right">
-                                                <div class="item">
-                                                    <div class="button-view-offer">View Offer</div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="author-new">
-                                                <div class="author-avatar"><img src="images/boy.png" alt=""></div>
-                                                <div class="item">
-                                                    <div class="title">Brad Simmons</div>
-                                                    <div class="content">HTML, JS, ReactJS</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="item">
-                                                    <div class="title">$8,000,000</div>
-                                                    <div class="content">In Proccess</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="item">
-                                                    <div class="title">Intertico</div>
-                                                    <div class="content">Web, UI/UX Design</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="rating">
-                                                    <div class="rating-left">
-                                                <div class="item">
-                                                    <div class="title icon">★★★★★</div>
-                                                    <div class="content">Best Rated</div>
-                                                </div>
-                                            </div>
-                                            <div class="rating-right">
-                                                <div class="item">
-                                                    <div class="button-view-offer">View Offer</div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="author-new">
-                                                <div class="author-avatar"><img src="images/boy.png" alt=""></div>
-                                                <div class="item">
-                                                    <div class="title">Brad Simmons</div>
-                                                    <div class="content">HTML, JS, ReactJS</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="item">
-                                                    <div class="title">$8,000,000</div>
-                                                    <div class="content">In Proccess</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="item">
-                                                    <div class="title">Intertico</div>
-                                                    <div class="content">Web, UI/UX Design</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="info-author">
-                                                <div class="rating">
-                                                    <div class="rating-left">
-                                                <div class="item">
-                                                    <div class="title icon">★★★★★</div>
-                                                    <div class="content">Best Rated</div>
-                                                </div>
-                                            </div>
-                                            <div class="rating-right">
-                                                <div class="item">
-                                                    <div class="button-view-offer">View Offer</div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                        <div class="text">
+                                            <h1 class="big-2">750$</h1>
+                                            <p class="content">Weekly Income</p>
+                                        </div>
+                                    </div>
                                     
-                                </tbody>
-                            </table>
+                                    <img class="weekly-income-img" src="images/Vector-9.png" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class=" box-item-12">
+                                <div class="weekly-income bg-white rel">
+                                    <div class="weekly-income-top flex-row-space-between ">
+                                        <div class="icon-img bg-primary-bland circle">
+                                            <img class="pointer" src="images/Cart3.png" alt="">
+                                        </div>
+                                            
+                                        
+                                        <div class="text">
+                                            <h1 class="big-2">+259</h1>
+                                            <p class="content">Sales Change</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <img class="weekly-income-img" src="images/Vector-8.png" alt="">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-8-4">
+                        <div class="market-leaders bg-white">
+                            <div class="flex-row-space-between">
+                                <h3>Market Leaders</h3>
+                                <p class="dots">
+                                    <span class="dot-1 default"></span>
+                                    <span class="dot-2 dark-3"></span>
+                                </p>
+                            </div>
+                            <div class="market-item">
+                                <div class="flex-row-space-between">
+                                    <div class="flex-row-space-between">
+                                        <img src="images/product17-1.png" alt="">
+                                    
+                                    <div class="text mgl-10px">
+                                        <h6 >Cup & Green</h6>
+                                        <p class="content-1">Study the highway types</p>
+                                        <p class="content-2">Created by:<a href=""><span class="text-violet">CoreAd</span></a></p>
+                                    </div>
+                                </div>
+                                    <div class="text-right">
+                                        <h1 class="market-number-total">24,900</h1>
+                                        <p class="content">Sales</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="market-item">
+                                <div class="flex-row-space-between">
+                                    <div class="flex-row-space-between">
+                                        <img src="images/product10-1.png" alt="">
+                                    
+                                    <div class="text mgl-10px">
+                                        <h6 >Yellow Background</h6>
+                                        <p class="content-1">Study the highway types</p>
+                                        <p class="content-2">Created by:<a href=""><span class="text-violet">KeenThemes</span></a></p>
+                                    </div>
+                                </div>
+                                    <div class="text-right">
+                                        <h1 class="market-number-total">70,380</h1>
+                                        <p class="content">Sales</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="market-item">
+                                <div class="flex-row-space-between">
+                                    <div class="flex-row-space-between">
+                                        <img src="images/product110.png" alt="">
+                                    
+                                    <div class="text mgl-10px">
+                                        <h6 >Nike & Blue</h6>
+                                        <p class="content-1">Study the highway types</p>
+                                        <p class="content-2">Created by:<a href=""><span class="text-violet">Invision Inc.</span></a></p>
+                                    </div>
+                                </div>
+                                    <div class="text-right">
+                                        <h1 class="market-number-total">7,200</h1>
+                                        <p class="content">Sales</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="market-item">
+                                <div class="flex-row-space-between">
+                                    <div class="flex-row-space-between">
+                                        <img src="images/product9-1.png" alt="">
+                                    
+                                    <div class="text mgl-10px">
+                                        <h6 >Red Boots</h6>
+                                        <p class="content-1">Study the highway types</p>
+                                        <p class="content-2">Created by:<a href=""><span class="text-violet">Figma Studio</span></a></p>
+                                    </div>
+                                </div>
+                                    <div class="text-right">
+                                        <h1 class="market-number-total">36,450</h1>
+                                        <p class="content">Sales</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="market-item">
+                                <div class="flex-row-space-between">
+                                    <div class="flex-row-space-between">
+                                        <img src="images/product14-1.png" alt="">
+                                    
+                                    <div class="text mgl-10px">
+                                        <h6 >Chicken Nuggets</h6>
+                                        <p class="content-1">Study the highway types</p>
+                                        <p class="content-2">Created by:<a href=""><span class="text-violet">Figma Studio</span></a></p>
+                                    </div>
+                                </div>
+                                    <div class="text-right">
+                                        <h1 class="market-number-total">14,900</h1>
+                                        <p class="content">Sales</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-12">
+                        <div class="new-arrivals flex-colomn bg-white ">
+                            <div class="flex-row-space-between">
+                                <div class="text">
+                                    <h2 class="title">New Arrivals</h2>
+                                    <p class="content">More than 400+ new members
+                                    </p>
+                                </div>
+                                <div class="new-arrivals-button">
+                                    <button class="btn btn-primary btn-sm">New Report
+                                    </button>
+                                    <button class="btn btn-danger btn-sm">Create
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="table-default scroll-x mg-tb-25px">
+                                <table class="">
+                                    <thead>
+                                        <tr>
+                                            <th class="width-40 ">PRODUCTS</th>
+                                            <th class="width-15 ">EARNINGS</th>
+                                            <th class="width-15 ">COMPANY</th>
+                                            <th class="width-30 ">RATING</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="flex-row mgl--10px">
+                                                    <div class="icon-img bg-default"><img class="bottom"
+                                                            src="images/boy.png" alt="">
+                                                    </div>
+                                                    <div class="flex-column-space-between mgl-15px">
+                                                        <h6 class="title">Brad Simmons</h6>
+                                                        <p class="content">HTML, JS, ReactJS</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column">
+                                                    <h6 class="title">$8,000,000</h6>
+                                                    <p class="content">In Proccess</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column">
+                                                    <h6 class="title">Intertico</h6>
+                                                    <p class="content">Web, UI/UX Design</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-row-space-between-center">
+                                                    <div class="flex-column">
+                                                        <h6 class="color-warning">★★★★★</h6>
+                                                        <p class="content">Best Rated</p>
+                                                    </div>
+                                                    <button class="btn btn-success-bland">View Offer</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="flex-row mgl--10px">
+                                                    <div class="icon-img bg-default"><img class="bottom"
+                                                            src="images/boy.png" alt="">
+                                                    </div>
+                                                    <div class="flex-column-space-between mgl-15px">
+                                                        <h6 class="title">Brad Simmons</h6>
+                                                        <p class="content">HTML, JS, ReactJS</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column">
+                                                    <h6 class="title">$8,000,000</h6>
+                                                    <p class="content">In Proccess</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column">
+                                                    <h6 class="title">Intertico</h6>
+                                                    <p class="content">Web, UI/UX Design</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-row-space-between-center">
+                                                    <div class="flex-column">
+                                                        <h6 class="color-warning">★★★★★</h6>
+                                                        <p class="content">Best Rated</p>
+                                                    </div>
+                                                    <button class="btn btn-success-bland">View Offer</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="flex-row mgl--10px">
+                                                    <div class="icon-img bg-default"><img class="bottom"
+                                                            src="images/boy.png" alt="">
+                                                    </div>
+                                                    <div class="flex-column-space-between mgl-15px">
+                                                        <h6 class="title">Brad Simmons</h6>
+                                                        <p class="content">HTML, JS, ReactJS</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column">
+                                                    <h6 class="title">$8,000,000</h6>
+                                                    <p class="content">In Proccess</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column">
+                                                    <h6 class="title">Intertico</h6>
+                                                    <p class="content">Web, UI/UX Design</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-row-space-between-center">
+                                                    <div class="flex-column">
+                                                        <h6 class="color-warning">★★★★★</h6>
+                                                        <p class="content">Best Rated</p>
+                                                    </div>
+                                                    <button class="btn btn-success-bland">View Offer</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="flex-row mgl--10px">
+                                                    <div class="icon-img bg-default"><img class="bottom"
+                                                            src="images/boy.png" alt="">
+                                                    </div>
+                                                    <div class="flex-column-space-between mgl-15px">
+                                                        <h6 class="title">Brad Simmons</h6>
+                                                        <p class="content">HTML, JS, ReactJS</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column">
+                                                    <h6 class="title">$8,000,000</h6>
+                                                    <p class="content">In Proccess</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-column">
+                                                    <h6 class="title">Intertico</h6>
+                                                    <p class="content">Web, UI/UX Design</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="flex-row-space-between-center">
+                                                    <div class="flex-column">
+                                                        <h6 class="color-warning">★★★★★</h6>
+                                                        <p class="content">Best Rated</p>
+                                                    </div>
+                                                    <button class="btn btn-success-bland">View Offer</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+
+            <!-- section-3 -->
+            <section id="section-3" class="default">
+
+
+            </section>
+            <!-- end section-3 -->
+
+
+        </main>
     </div>
 
 </body>

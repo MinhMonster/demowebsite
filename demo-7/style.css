@@ -16,74 +16,9 @@ body{
     flex-direction: row;
 }
 
-#menu-icon {
-    /* flex-grow: 1; */
-
-    width: 60px;
-    /* margin-right: 60px; */
-
-    /* flex: 1; */
-    border-right: 1px solid #a4a4a4;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
 
 
 
-}
-
-#menu-icon ul {
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-#menu-icon ul li {
-    margin: 15px auto;
-    list-style: none;
-
-}
-
-#menu-icon ul li:hover, .active {
-    background: #f5f5f5;
-}
-
-
-
-#menu-icon ul li i {
-    color: #666;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    text-align: center;
-
-}
-
-#menu-icon ul li img {
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    text-align: center;
-
-}
-
-
-#menu-left {
-    margin-left: 60px;
-
-    width: 300px;
-    padding: 15px;
-    /* flex-grow: 3; */
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
 
 #menu-left .search {
     display: flex;
@@ -94,7 +29,7 @@ body{
 #menu-left .search .input-search input {
     z-index: ;
     width: 210px;
-    height: 30px;
+    height: 40px;
     line-height: 30px;
     margin-right: 15px;
     text-align: center;
@@ -176,14 +111,7 @@ padding: 10px;
     margin-right: -20px;
 }
 
-#main-body {
-    margin-left: 360px;
-    width: calc(100%);
-    padding: 20px;
-    /* flex-grow: 12; */
-    background: #f5f5f5;
 
-}
 
 .statis .sales,
 .statis .author,
