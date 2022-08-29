@@ -23,6 +23,27 @@
 <body>
     <div id="wrap">
         <main id="main" class="">
+            <section id="header-mobile">
+                <header>
+                    <div class="logo-header">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="form-search flex-row-space-between">
+                        <div class="flex-row-space-between rel">
+                            <i class="icon-search fa fa-search abs"></i>
+                            <input type="text" class="input-search" placeholder="Search">
+                        </div>
+                        <a class="icon default" href="#">
+                            <img src="images/User.png" alt="">
+                        </a>
+                    </div>
+                    <button class="menu-toggle">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+
+                </header>
+            </section>
 
             <section id="menu-icon" class="flex-column">
                 <div class="logo">
@@ -171,14 +192,16 @@
 
             <section id="main-body">
                 <div class="main-header">
-                    <div class="flex-row-space-between">
+                    <!-- <div class="flex-row-wrap-space-between"> -->
+                       
                         <h1 class="title">KC Account CRM</h1>
-                        <div class="group-buttun flex-row-space-between">
-                            <buttun class="btn btn-white flex-row-space-between-center">
+                        
+                        <div class="group-btn ">
+                            <buttun class="btn btn-white success-hover flex-row-space-between-center">
                                 <img src="images/Add-user.png" alt="">
                                 <p>Add New Member</p> 
                             </buttun>
-                            <buttun class="btn btn-white flex-row-space-between-center">
+                            <buttun class="btn btn-white success-hover flex-row-space-between-center">
                                 <img src="images/File.png" alt="">
                                 <p>New Report</p> 
                             </buttun>
@@ -186,7 +209,7 @@
                             </div>
                         </div>
 
-                    </div>
+                    <!-- </div> -->
                 </div>
                 <div class="box">
                     <div class="box-4-4">
@@ -238,7 +261,7 @@
                                         <p class="content">More than 400+ new members</p>
                                     </div>
 
-                                    <div class=" time-author flex-row-space-between-center">
+                                    <div class="group-icon flex-row-space-between-center">
                                         <div class="icon-text Month"><a>Month</a></div>
                                         <div class="icon-text week">Week</div>
                                         <div class="icon-text active day ">Day</div>
