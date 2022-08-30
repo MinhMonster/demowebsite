@@ -22,29 +22,33 @@
 
 <body>
     <div id="wrap">
-        <header id="header" class="fixed">
-            <div class="container ">
-                <section id="header-1">
-
-                    <div class="logo">
-                        <img src="images/logo-dark-1.png" alt="">
+        <header id="header">
+            <section id="header-1" class="z-index-1000">
+                <div class="container ">
+                    <div class="flex-row-space-between-center">
+                        <img class="logo" src="images/logo-dark-1.png" alt="">
+                        <div class="menu-left">
+                            <div class="form-search flex-row-space-between-center">
+                                <div id="form-input-search" class="flex-row-space-between rel">
+                                    <!-- <i class="icon-search fa fa-search abs"></i> -->
+                                    <img class="icon-search abs" src="images/gen004.png" alt="">
+                                    <input type="text" class="input-search" placeholder="Find Goods">
+                                </div>
+                                <a class="icon buttun-search" href="#"><img src="images/gen004.png" alt=""></a>
+                                <a class="icon" href="#"><img src="images/arr011.png" alt=""></a>
+                                <a class="icon" href="#"><img src="images/User.png" alt=""></a>
+                                <a class="icon active" href=""><span>3</span></a>
+                                <button class="menu-toggle">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="menu-left">
-
-                        <i class="fa fa-search"></i>
-                        <input type="text" class="input-search">
-                        <a href=""><i class="fa fa-bar-chart"></i></a>
-                        <a href=""><i class="fa fa-user"></i></a>
-                        <a class="ring" href="">3</a>
-
-                    </div>
-
-
-                </section>
-            </div>
-            <div class="container">
-                <section id="header-2" class="scroll-x">
-                    <ul id="menu-row">
+                </div>
+            </section>
+            <section id="header-2" class="scroll-x">
+                <div class="container">
+                    <ul class=" btn-list-default mg-auto-0">
                         <li class="active"><a href="#">Dashboard</a></li>
                         <li><a href="#">UI Features</a></li>
                         <li><a href="#">Form Controls</a></li>
@@ -52,59 +56,68 @@
                         <li><a href="#">Applications</a></li>
                         <li><a href="#">Documentaion</a></li>
                     </ul>
-
-
-                </section>
-            </div>
+                </div>
+            </section>
         </header>
-        <main id="main" style="margin-top: 100px">
+        <main id="main">
             <section id="section-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-lg-8">
-                            <div class="create-store">
-                                <div class="text">
-                                    <div class="title">We are working
-                                    </div>
-                                    <div class="title bold">to boost lovely mood</div>
-                                    <div class="content">Long before you sit down to put the pen
-                                        need to make sure you breathe</div>
-                                    <div class="btn btn-primary color-white">
-                                        <a href="#">Create a Store</a>
+                            <div class="create-store bg-white ">
+                                <div class="row">
+                                    <div class="col-md-7 col-xs-7 col-lg-7 mg-auto-0">
+                                        <div class="create-body ">
+                                            <h1 class=" title-big">We are working <br>
+                                                <span class="bold">to boost lovely mood</span>
+                                            </h1>
+
+                                            <p class="content mg-tb-14px">Long before you sit down to put the pen
+                                                need to make sure you breathe</p>
+                                            <buttun class="btn btn-primary mgt-10px">
+                                                <a href="#">Create a Store</a>
+
+                                            </buttun>
+                                        </div>
 
                                     </div>
-                                </div>
+                                    <div class="col-md-5 col-xs-5 col-lg-5">
 
-                                <div class="img">
-                                    <img src="images/Basket.png" alt="">
+                                        <img class="create-store-img  mg-tb-25px" src="images/Basket.png" alt="">
+
+                                    </div>
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-                            <div class="user-base">
-                                <div class="user-base-top">
-                                    <div class="text">
-                                        <div class="title bold">User Base</div>
+                            <div class="user-base bg-white rel pd-lr-30px">
+                                <div class="user-base-top flex-row-space-between-center">
+                                    <div class="text flex-column-space-between ">
+                                        <h2 class="title">User Base</h2>
 
                                         <div class="content">37% are Affiliates</div>
 
 
                                     </div>
-                                    <div class="dots">...</div>
+                                    <div class="dots3">...</div>
                                 </div>
                                 <div class="user-base-chart">
                                     <img src="images/Chart-bar.png" alt="">
                                 </div>
-                                <div class=" chart content">Long before you sit down to put the make sure you breathe
-                                </div>
-                                <div class="btn btn-primary color-white">
-                                    <a href="#">Create a Store</a>
+                                <p class="content-user-base center">Long before you sit down to put the make sure you
+                                    breathe
+                                </p>
+                                <div class="center">
+                                    <button class="btn btn-primary">
+                                        <a href="#">Create a Store</a>
+                                    </button>
+                                    
 
                                 </div>
-                                <div class="item-bottom">
-                                    <div class="amount">Amount X</div>
-                                    <div class="amount">Amount Y</div>
+                                <div class="item-bottom mgl--30px">
+                                    <div class="amount-x">Amount X</div>
+                                    <div class="amount-y">Amount Y</div>
 
                                 </div>
 
@@ -125,225 +138,252 @@
                                 <div class="col-md-12">
                                     <div class="item-tops">
                                         <div class="item">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
+                                            <img src="images/Icon-5.png" alt="">
+                                            <p class="content">SaaS <br>Application</p>
                                         </div>
                                         <div class="item">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
+                                            <img src="images/Icon-1.png" alt="">
+                                            <p class="content">Main<br> Categories</p>
                                         </div>
                                         <div class="item active">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
+                                            <img src="images/Movie-lane-2.png" alt="">
+                                            <p class="content">Video<br>Tutorials</p>
                                         </div>
                                         <div class="item">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
+                                            <img src="images/arr011.png" alt="">
+                                            <p class="content">Sales<br>Statistics</p>
                                         </div>
                                         <div class="item">
-                                            <div class="icon bg-none">
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </div>
-                                            <div class="content">SaaS
-                                                Application</div>
+                                            <img src="images/Icon-4.png" alt="">
+                                            <p class="content">ARC<br>Security</p>
                                         </div>
+
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-
-
                                     <div class="author">
-                                        <div class="header">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="title bold">Authors Earnings</div>
-                                                    <div class="content">More than 400+ new members</div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="time">
-                                                        <div class="month">Month</div>
-                                                        <div class="week">Week</div>
-                                                        <div class="day active">Day</div>
-                                                    </div>
-                                                </div>
-
+                                        <div class="author-header flex-row-space-between-center pd-tb-25px">
+                                            <div class="group-text">
+                                                <h2 class="title-2">Authors Earnings</h2>
+                                                <p class="content">More than 400+ new members</p>
+                                            </div>
+                                            <div class="group-icon flex-row-space-between-center">
+                                                <div class="icon-text  month">Month</div>
+                                                <div class="icon-text  week">Week</div>
+                                                <div class="icon-text  day active">Day</div>
                                             </div>
                                         </div>
-                                        <div class="items scroll-x">
-                                            <div class="body-item ">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status violet">Approved</span>
-                                                </div>
+                                        <div class="table-default scroll-x ">
+                                            <table class="">
+                                                <thead class="hidden">
+                                                    <tr>
+                                                        <th class="width-40 ">PRODUCTS</th>
+                                                        <th class="width-15 ">EARNINGS</th>
+                                                        <th class="width-15 ">COMPANY</th>
+                                                        <th class="width-30 ">RATING</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="flex-row mgl--10px">
+                                                                <div class="icon-img-default"><img class=""
+                                                                        src="images/boy.png" alt="">
+                                                                </div>
+                                                                <div class="flex-column-space-between mgl-15px">
+                                                                    <h6 class="title">Sant Outstanding</h6>
+                                                                    <p class="content"><span>FTP:</span> bprow@bnc.cc
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="flex-column-space-between text-right height-50px">
+                                                                <h6 class="title">$2,000,000</h6>
+                                                                <p class="content">Paid</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="right">
+                                                                <span class="status violet-bland">Approved</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="action right">
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-tasks"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-edit"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-trash"></i>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="flex-row mgl--10px">
+                                                                <div class="icon-img-default"><img class=""
+                                                                        src="images/boy.png" alt="">
+                                                                </div>
+                                                                <div class="flex-column-space-between mgl-15px">
+                                                                    <h6 class="title">Telegram Mobile</h6>
+                                                                    <p class="content"><span>FTP:</span> bprow@bnc.cc
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="flex-column-space-between text-right height-50px">
+                                                                <h6 class="title">$4,600,000</h6>
+                                                                <p class="content">Paid</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="right">
+                                                                <span class="status warning-bland">In Progress</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="action right">
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-tasks"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-edit"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-trash"></i>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="flex-row mgl--10px">
+                                                                <div class="icon-img-default"><img class=""
+                                                                        src="images/boy.png" alt="">
+                                                                </div>
+                                                                <div class="flex-column-space-between mgl-15px">
+                                                                    <h6 class="title">Cisco Management</h6>
+                                                                    <p class="content"><span>FTP:</span> bprow@bnc.cc
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="flex-column-space-between text-right height-50px">
+                                                                <h6 class="title">$560,000</h6>
+                                                                <p class="content">Paid</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="right">
+                                                                <span class="status success-bland">Success</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="action right">
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-tasks"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-edit"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-trash"></i>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="flex-row mgl--10px">
+                                                                <div class="icon-img-default"><img class=""
+                                                                        src="images/boy.png" alt="">
+                                                                </div>
+                                                                <div class="flex-column-space-between mgl-15px">
+                                                                    <h6 class="title">Beats Studio</h6>
+                                                                    <p class="content"><span>FTP:</span> bprow@bnc.cc
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="flex-column-space-between text-right height-50px">
+                                                                <h6 class="title">$57,000</h6>
+                                                                <p class="content">Paid</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="right">
+                                                                <span class="status danger-bland">Rejected</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="action right">
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-tasks"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-edit"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-trash"></i>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="flex-row mgl--10px">
+                                                                <div class="icon-img-default"><img class=""
+                                                                        src="images/boy.png" alt="">
+                                                                </div>
+                                                                <div class="flex-column-space-between mgl-15px">
+                                                                    <h6 class="title">KTR Application</h6>
+                                                                    <p class="content"><span>FTP:</span> bprow@bnc.cc
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="flex-column-space-between text-right height-50px">
+                                                                <h6 class="title">$45,200,000</h6>
+                                                                <p class="content">Paid</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="right ">
+                                                                <span class="status warning-bland">In Progress</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="action right">
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-tasks"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-edit"></i>
+                                                                </div>
+                                                                <div class="icon-small primary-hover">
+                                                                    <i class="fa fa-trash"></i>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
 
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-                                                </div>
-
-
-                                            </div>
-                                            <div class="body-item">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status warning">In Progress</span>
-                                                </div>
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="body-item">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status success">Success</span>
-                                                </div>
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="body-item">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status danger">Rejected</span>
-                                                </div>
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="body-item">
-                                                <div class="info-item width-35">
-                                                    <div class="img-item">
-                                                        <img src="images/Avatar.png" alt="">
-                                                    </div>
-                                                    <div class="text">
-                                                        <div class="title bold">Brad Simmons</div>
-                                                        <div class="content">Successful Fellas</div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cash width-20">
-                                                    <div class="cash-author right right">
-                                                        <div class="title bold">$2,000,000</div>
-                                                        <div class="content">Paid</div>
-                                                    </div>
-                                                </div>
-                                                <div class="right width-25">
-                                                    <span class="status warning">In Progress</span>
-                                                </div>
-                                                <div class="action width-20">
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-tasks"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-edit"></i>
-                                                    </div>
-                                                    <div class="icon info-hover">
-                                                        <i class="fa fa-trash"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                </tbody>
+                                            </table>
                                         </div>
+
 
                                     </div>
 
@@ -353,70 +393,79 @@
                         <div class="col-md-4">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="recent default pd-10px">
-                                        <div class="flex-row-space-between-center pd-10px">
+                                    <div class="recent bg-default bd-1-default pd-lr-30px pd-tb-20px">
+                                        <div class="flex-row-space-between-center">
                                             <div class="text">
-                                                <div class="title bold">User Base</div>
-
-                                                <div class="content">37% are Affiliates</div>
+                                                <h3>Recent Activities</h3>
+                                                <p class="content">890,344 Sales</p>
 
 
                                             </div>
-                                            <div class="dots">...</div>
+                                            <div class="dots3">...</div>
                                         </div>
-                                        <div class="flex-column pd-10px">
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold  width-20 center ">08:42</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-violet"></div>
-                                                    <div class="item-2"></div>
+                                        <div class="flex-column mgt-20px">
+                                            <div class="user-ease-item flex-row">
+                                                <div class="title bold  width-50px ">08:42</div>
+                                                <div class="flex-colomn dots-coloumn">
+                                                    <div class="item-1 bd-3-violet"></div>
                                                 </div>
-                                                <div class="title color-content break-line-3 width-75">Outlines keep you
-                                                    honest. Indulging in poorly driving and keep structure</div>
+                                                <p class="user-base-info color-content break-line-3 width-75">Outlines
+                                                    keep you
+                                                    honest. Indulging in poorly driving and keep structure</p>
                                             </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">10:00</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-success"></div>
-                                                    <div class="item-2"></div>
+                                            <div class="user-ease-item flex-row ">
+                                                <div class="title bold width-50px">10:00</div>
+                                                <div class="flex-colomn dots-coloumn">
+                                                    <div class="item-1 bd-3-success"></div>
                                                 </div>
-                                                <div class="title bold break-line-3 width-75">AEOL meeting with</div>
+                                                <div class="user-base-info  flex rel">
+                                                    <p class="color-title">AEOL meeting with</p>
+
+                                                    <div class="img-avatar group-icon abs">
+                                                        <img src="images/300-2-4.png" alt="">
+                                                        <img src="images/300-2-3.png" alt="">
+                                                    </div>
+
+                                                </div>
                                             </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">14:37</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-danger"></div>
-                                                    <div class="item-2"></div>
+                                            <div class="user-ease-item flex-row">
+                                                <div class="title bold width-50px">14:37</div>
+                                                <div class="flex-colomn dots-coloumn">
+                                                    <div class="item-1 bd-3-danger"></div>
                                                 </div>
-                                                <div class="title bold break-line-3 width-75">Make deposit USD 700 to
-                                                    ESL</div>
+                                                <p class="user-base-info color-title break-line-3 width-75">Make deposit
+                                                    <span class="color-success">USD 700 </span>to ESL
+                                                </p>
                                             </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">16:50</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-primary"></div>
-                                                    <div class="item-2"></div>
+                                            <div class="user-ease-item flex-row ">
+                                                <div class="title bold  width-50px">16:50</div>
+                                                <div class="flex-colomn dots-coloumn">
+                                                    <div class="item-1 bd-3-primary"></div>
                                                 </div>
-                                                <div class=" title  color-content break-line-3 width-75">Outlines keep
+
+                                                <p class="user-base-info color-content break-line-3 ">Outlines keep
                                                     you honest. Indulging in poorly driving and keep structure keep you
-                                                    honest great</div>
+                                                    honest great</p>
                                             </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">21:03</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-danger"></div>
-                                                    <div class="item-2"></div>
+                                            <div class="user-ease-item flex-row">
+                                                <div class="title bold width-50px">21:03</div>
+                                                <div class="flex-colomn dots-coloumn center">
+                                                    <div class="item-1 bd-3-danger"></div>
                                                 </div>
-                                                <div class="title  bold break-line-3 width-75">New order placed #XF-2356
-                                                </div>
+                                                <p class="user-base-info color-title break-line-3 width-75">New order
+                                                    placed
+                                                    <span class="color-success">#XF-2356 </span>
+                                                </p>
+
                                             </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="title bold width-20 center">23:07</div>
-                                                <div class="flex-colomn width-5">
-                                                    <div class="item-1 bd-2-violet"></div>
+                                            <div class="user-ease-item flex-row-space-between mg-tb-5px top">
+                                                <div class="title bold width-50px">23:07</div>
+                                                <div class="flex-colomn dots-coloumn center">
+                                                    <div class="item-1 bd-3-violet"></div>
                                                 </div>
-                                                <div class="title  color-content break-line-3 width-75">Outlines keep
-                                                    you honest. Indulging in poorly driving and keep structure</div>
+                                                <p class=" user-base-info color-content break-line-3 width-75">Outlines
+                                                    keep
+                                                    you honest. Indulging in poorly driving and keep structure</p>
                                             </div>
 
                                         </div>
@@ -425,112 +474,108 @@
                                     </div>
 
                                 </div>
-<!-- Recent Activities -->
+                                <!-- Recent Activities -->
                                 <div class="col-md-12">
-                                    <div class="recent default pd-10px">
+                                    <div class="recent bg-default bd-1-default pd-lr-30px ">
 
-                                        <div class="flex-row-space-between-center pd-10px">
+                                        <div class="flex-row-space-between-center pd-tb-25px">
                                             <div class="text">
                                                 <div class="title bold">Recent Activities
                                                 </div>
                                                 <div class="content">890,344 Sales</div>
                                             </div>
-                                            <div class="dots">...</div>
+                                            <div class="dots3">...</div>
                                         </div>
 
-                                        <div class="flex-column pd-10px">
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector.png" alt="">
-                                                </div>
-                                                    
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
+                                        <div class="flex-column">
+                                            <div class="flex-row-space-between-center item-group">
+                                                <div class="flex-row-space-between-center">
+                                                    <div class="icon-img bg-white">
+                                                        <img src="images/184-plurk.png" alt="">
                                                     </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
+                                                    <div class="mgl-15px">
+                                                        <h6 class="title">Top Authors</h6>
+                                                        <p class="content">
+                                                            Most Successful Fellas
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
+                                                <div class="cash ">
+                                                    <span >+82$</span>
                                                 </div>
                                             </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector-2.png" alt="">
-                                                </div>
-                                                    
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
+                                            <div class="flex-row-space-between-center item-group">
+                                                <div class="flex-row-space-between-center">
+                                                    <div class="icon-img bg-white">
+                                                        <img src="images/186-telegram.png" alt="">
                                                     </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
+                                                    <div class="mgl-15px">
+                                                        <h6 class="title">Top Authors</h6>
+                                                        <p class="content">
+                                                            Most Successful Fellas
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
+                                                <div class="cash ">
+                                                    <span >+82$</span>
                                                 </div>
                                             </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector-3.png" alt="">
-                                                </div>
-                                                    
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
+                                            <div class="flex-row-space-between-center item-group">
+                                                <div class="flex-row-space-between-center">
+                                                    <div class="icon-img bg-white">
+                                                        <img src="images/194-puzzle.png" alt="">
                                                     </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
+                                                    <div class="mgl-15px">
+                                                        <h6 class="title">Top Authors</h6>
+                                                        <p class="content">
+                                                            Most Successful Fellas
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
+                                                <div class="cash ">
+                                                    <span>+82$</span>
                                                 </div>
                                             </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector-4.png" alt="">
-                                                </div>
-                                                    
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
+                                            <div class="flex-row-space-between-center item-group">
+                                                <div class="flex-row-space-between-center">
+                                                    <div class="icon-img bg-white">
+                                                        <img src="images/194-puzzle.png" alt="">
                                                     </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
+                                                    <div class="mgl-15px">
+                                                        <h6 class="title">Top Authors</h6>
+                                                        <p class="content">
+                                                            Most Successful Fellas
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
+                                                <div class="cash ">
+                                                    <span>+82$</span>
                                                 </div>
                                             </div>
-                                            <div class="flex-row mg-tb-5px">
-                                                <div class="icon-img-hover width-20">
-                                                    <img src="images/Vector-5.png" alt="">
-                                                </div>
-                                                    
-                                                <div class="width-60">
-                                                    <div class="title bold">
-                                                        Top Authors
+                                            <div class="flex-row-space-between-center item-group">
+                                                <div class="flex-row-space-between-center">
+                                                    <div class="icon-img bg-white">
+                                                        <img src="images/186-telegram.png" alt="">
                                                     </div>
-                                                    <div class="content">
-                                                        Most Successful Fellas
+                                                    <div class="mgl-15px">
+                                                        <h6 class="title">Top Authors</h6>
+                                                        <p class="content">
+                                                            Most Successful Fellas
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="width-20 right bold">
-                                                    +82$
+                                                <div class="cash ">
+                                                    <span>+82$</span>
                                                 </div>
                                             </div>
-                                            
+
+
                                         </div>
 
 
                                     </div>
                                 </div>
-<!-- End Recent Activities -->
+                                <!-- End Recent Activities -->
                             </div>
                         </div>
                     </div>
