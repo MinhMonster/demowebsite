@@ -357,6 +357,11 @@ section#main-body{
 
 
     @media (min-width:576px) {
+        #main-body.active{
+            width: calc(100% - 100px);
+            margin-left: 100px;
+        
+        }
 
 
 
@@ -2040,6 +2045,7 @@ section#menu-icon {
 
 /* #menu-left */
 #menu-left {
+    z-index: 2;
     margin-left: 100px;
 
     width: 340px;
