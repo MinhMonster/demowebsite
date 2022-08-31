@@ -57,6 +57,8 @@ padding: 10px;
 
 }
 
+
+
 .item-menu-left:hover, .item-menu-left.active{
     background: #f5f5f5;
     border-radius: 5px;
@@ -582,6 +584,8 @@ color: #1BC5BD;
 
 
 @media screen and (max-width:1000px) {
+
+
     #menu-left{
         display: none;
     }
