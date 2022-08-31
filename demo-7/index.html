@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css" >
 
     <link rel="stylesheet" href="reset.css">
     <!-- <link rel="stylesheet" href="style.css"> -->
@@ -49,7 +50,11 @@
                 <div class="logo">
                     <img src="images/logo.png" alt="">
                 </div>
+                <button class="menu-left-toggle">
+                    <i class="fa-solid fa-angles-right"></i>
+                </button>
                 <ul class="icon-img">
+
                     <li><a href="#">
                             <img src="images/Icon-1.png" alt="">
                         </a></li>
@@ -196,7 +201,7 @@
                        
                         <h1 class="title">KC Account CRM</h1>
                         
-                        <div class="group-btn ">
+                        <div class="group-btn">
                             <buttun class="btn btn-white success-hover flex-row-space-between-center">
                                 <img src="images/Add-user.png" alt="">
                                 <p>Add New Member</p> 
@@ -742,5 +747,59 @@
     </div>
 
 </body>
+
+<script>
+    
+    var toggle_left = document.querySelector('.menu-left-toggle');
+
+    var toggle = document.querySelector('.menu-toggle');
+
+    var headerButton = document.querySelector('#menu-icon');
+
+    var menuleftButton = document.querySelector('#menu-left');
+
+
+    toggle.onclick = function () {
+        headerButton.classList.toggle('active');
+
+    }
+
+    toggle_left.onclick = function () {
+        menuleftButton.classList.toggle('active');
+        toggle_left.classList.toggle('active');
+
+
+    }
+
+    function activeMenu() {
+    let links = document.querySelector('#menu-icon');
+    if (window.innerWidth > 768) {
+      
+           links.classList.remove("active");
+      
+       
+    } 
+}
+
+function activeMenuLeft() {
+    let linksleft = document.querySelector('#menu-left');
+    let linkstoggleleft = document.querySelector('.menu-left-toggle');
+    if (window.innerWidth > 1200) {
+      
+        linksleft.classList.remove("active");
+        linkstoggleleft.classList.remove("active");
+        // linkstoggleleft.style.display = "none";
+
+
+      
+       
+    } 
+}
+
+setInterval(activeMenuLeft, 500);
+setInterval(activeMenu, 500);
+
+
+</script>
 
 </html>
